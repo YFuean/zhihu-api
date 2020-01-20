@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * @ClassName RoundTable
- * @Description TODO
+ * @Description 圆桌类
  * @Author yue_fan
  * @Date 2020/1/17
  **/

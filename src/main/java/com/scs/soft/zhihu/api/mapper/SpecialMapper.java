@@ -10,6 +10,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author yuefan
+ */
 public interface SpecialMapper {
     /**
      * 查询最新专题

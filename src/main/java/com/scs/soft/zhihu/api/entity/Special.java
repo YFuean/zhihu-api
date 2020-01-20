@@ -6,9 +6,11 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @author yuefan
- * @date 2020.1.15
- */
+ * @ClassName User
+ * @Description 专题类
+ * @Author yue_fan
+ * @Date 2020/1/15
+ **/
 @Data
 @Builder
 public class Special {
