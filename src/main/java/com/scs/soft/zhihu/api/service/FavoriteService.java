@@ -1,7 +1,6 @@
 package com.scs.soft.zhihu.api.service;
 
 import com.scs.soft.zhihu.api.entity.Favorite;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -23,4 +22,12 @@ public interface FavoriteService {
      * @return List<Favorite>
      */
     List<Favorite> selectAll();
+
+    /**
+     * 加载数据
+     * @param currentCount
+     * @param count
+     * @return List<Favorite>
+     */
+    List<Favorite> selectByPage(int currentCount,int count);
 }

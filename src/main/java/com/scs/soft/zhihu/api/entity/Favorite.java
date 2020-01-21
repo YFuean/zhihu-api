@@ -19,7 +19,7 @@ public class Favorite {
     private Integer followers;
     private Integer totalCount;
     private String questionTitle;
-    private String answerAuthorName;
+    private String answerAuthorname;
     private String answerContent;
     private Integer voteupCount;
     private Integer commentCount;

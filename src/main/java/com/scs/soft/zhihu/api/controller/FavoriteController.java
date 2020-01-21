@@ -23,4 +23,8 @@ public class FavoriteController {
     public Result getHot(){return Result.success(favoriteService.selectHot());}
     @GetMapping(value = "/all")
     public Result getAll(){return Result.success(favoriteService.selectAll());}
+    @GetMapping(value = "/page")
+    public Result getByPage(int currentPage,int count){
+        return Result.success(favoriteService.selectByPage(currentPage,count));
+    }
 }

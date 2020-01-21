@@ -22,7 +22,7 @@ public interface FavoriteMapper {
     List<Favorite> selectHot();
 
     /**
-     * 查询所有，按火热度排序
+     * 查询所有，按火热度排序.
      * @return List<Favorite>
      */
     @Select("SELECT * FROM t_favorite")
@@ -34,10 +34,19 @@ public interface FavoriteMapper {
             @Result(property = "followers",column = "followers",javaType = Integer.class),
             @Result(property = "totalCount",column = "total_count",javaType = Integer.class),
             @Result(property = "questionTitle",column = "question_title",javaType = String.class),
-            @Result(property = "answerAuthorName",column = "answer_author_name",javaType = String.class),
+            @Result(property = "answerAuthorname",column = "answer_author_name",javaType = String.class),
             @Result(property = "answerContent",column = "answer_content",javaType = String.class),
             @Result(property = "voteupCount",column = "voteup_count",javaType = Integer.class),
             @Result(property = "commentCount",column = "comment_count",javaType = Integer.class),
     })
     List<Favorite> selectAll();
+
+    /**
+     * 缓慢加载页
+     * @param dealCount
+     * @param count
+     * @return List<Favorite>
+     */
+    @Select("SELECT * FROM t_favorite ORDER BY id LIMIT #{dealCount} , #{count}")
+    List<Favorite> selectByPage(int dealCount,int count);
 }

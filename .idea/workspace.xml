@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="197673bf-5de6-4dac-a9bb-fc9927bd49dd" name="Default Changelist" comment="知乎api">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/FavoriteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Columns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Favorite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/FavoriteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/impl/FavoriteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/scs/soft/zhihu/api/mapper/FavoriteMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/scs/soft/zhihu/api/mapper/SectionMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/463be549-9fed-4a2a-be24-d7e68a30adec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/463be549-9fed-4a2a-be24-d7e68a30adec.xml" afterDir="false" />
+    <list default="true" id="197673bf-5de6-4dac-a9bb-fc9927bd49dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/scs/soft/zhihu/api/service/FavoriteServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/FavoriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/FavoriteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Favorite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/RoundTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/RoundTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Special.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Special.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/SpecialMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/SpecialMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Section$SectionBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Section$SectionBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Section.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Special$SpecialBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Special$SpecialBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Special.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/Special.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/RoundTableMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/RoundTableMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/FavoriteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/FavoriteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/impl/FavoriteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/impl/FavoriteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/RoundTable$RoundTableBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/RoundTable$RoundTableBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/RoundTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/entity/RoundTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/mapper/RoundTableMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/mapper/RoundTableMapper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +53,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -110,6 +103,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.scs.soft.zhihu.api.service" />
       <recent name="com.scs.soft.zhihu.api.mapper" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -120,7 +114,7 @@
       <recent name="D:\dev\SpringBoot\zhihu-api\src\main\java\com\scs\soft\zhihu\api" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FavoriteMapperTest.selectAll">
+  <component name="RunManager" selected="JUnit.FavoriteServiceTest.selectByPage">
     <configuration name="FavoriteMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zhihu-api" />
       <extension name="coverage">
@@ -153,6 +147,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FavoriteServiceTest.selectByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zhihu-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scs.soft.zhihu.api.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scs.soft.zhihu.api.service" />
+      <option name="MAIN_CLASS_NAME" value="com.scs.soft.zhihu.api.service.FavoriteServiceTest" />
+      <option name="METHOD_NAME" value="selectByPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RoundTableMapperTest.selectHot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zhihu-api" />
       <extension name="coverage">
@@ -164,22 +174,6 @@
       <option name="PACKAGE_NAME" value="com.scs.soft.zhihu.api.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.scs.soft.zhihu.api.mapper.RoundTableMapperTest" />
       <option name="METHOD_NAME" value="selectHot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SectionMapperTest.getSectionsBySpecialId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zhihu-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scs.soft.zhihu.api.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.scs.soft.zhihu.api.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.scs.soft.zhihu.api.mapper.SectionMapperTest" />
-      <option name="METHOD_NAME" value="getSectionsBySpecialId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FavoriteMapperTest.selectAll" />
-        <item itemvalue="JUnit.FavoriteMapperTest.selectHot" />
-        <item itemvalue="JUnit.SpecialMapperTest.selectAll" />
-        <item itemvalue="JUnit.SectionMapperTest.getSectionsBySpecialId" />
+        <item itemvalue="JUnit.FavoriteServiceTest.selectByPage" />
         <item itemvalue="JUnit.RoundTableMapperTest.selectHot" />
+        <item itemvalue="JUnit.FavoriteMapperTest.selectHot" />
+        <item itemvalue="JUnit.FavoriteMapperTest.selectAll" />
+        <item itemvalue="JUnit.SpecialMapperTest.selectAll" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +239,8 @@
       <workItem from="1579260776160" duration="1307000" />
       <workItem from="1579311178336" duration="12485000" />
       <workItem from="1579443666750" duration="1973000" />
-      <workItem from="1579492127126" duration="4583000" />
+      <workItem from="1579492127126" duration="10907000" />
+      <workItem from="1579567996104" duration="5382000" />
     </task>
     <task id="LOCAL-00001" summary="知乎api">
       <created>1579323576085</created>
@@ -254,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579323576085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加收藏夹板块">
+      <created>1579520255665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579520255665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +264,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="知乎api" />
-    <option name="LAST_COMMIT_MESSAGE" value="知乎api" />
+    <MESSAGE value="增加收藏夹板块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加收藏夹板块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="20" key="#Intentions" timestamp="1579153163179">
@@ -273,62 +276,62 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="127" y="3" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1579156394136" />
-    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1579519692936">
+    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1579571648203">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1579519692936" />
-    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1579351488992">
+    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1579571648203" />
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1579520253120">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1579351488992" />
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1579520253120" />
     <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1579323459050">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1579323459050" />
-    <state width="1236" height="193" key="GridCell.Tab.0.bottom" timestamp="1579519432859">
+    <state width="1236" height="214" key="GridCell.Tab.0.bottom" timestamp="1579574823838">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579519432859" />
-    <state width="1236" height="193" key="GridCell.Tab.0.center" timestamp="1579519432859">
+    <state width="1236" height="214" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579574823838" />
+    <state width="1236" height="214" key="GridCell.Tab.0.center" timestamp="1579574823838">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1579519432859" />
-    <state width="1236" height="193" key="GridCell.Tab.0.left" timestamp="1579519432859">
+    <state width="1236" height="214" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1579574823838" />
+    <state width="1236" height="214" key="GridCell.Tab.0.left" timestamp="1579574823837">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1579519432859" />
-    <state width="1236" height="193" key="GridCell.Tab.0.right" timestamp="1579519432859">
+    <state width="1236" height="214" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1579574823837" />
+    <state width="1236" height="214" key="GridCell.Tab.0.right" timestamp="1579574823838">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1579519432859" />
-    <state width="1236" height="193" key="GridCell.Tab.1.bottom" timestamp="1579351476237">
+    <state width="1236" height="214" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1579574823838" />
+    <state width="1236" height="214" key="GridCell.Tab.1.bottom" timestamp="1579574800164">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579351476237" />
-    <state width="1236" height="193" key="GridCell.Tab.1.center" timestamp="1579351476237">
+    <state width="1236" height="214" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579574800164" />
+    <state width="1236" height="214" key="GridCell.Tab.1.center" timestamp="1579574800163">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1579351476237" />
-    <state width="1236" height="193" key="GridCell.Tab.1.left" timestamp="1579351476237">
+    <state width="1236" height="214" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1579574800163" />
+    <state width="1236" height="214" key="GridCell.Tab.1.left" timestamp="1579574800163">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1579351476237" />
-    <state width="1236" height="193" key="GridCell.Tab.1.right" timestamp="1579351476237">
+    <state width="1236" height="214" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1579574800163" />
+    <state width="1236" height="214" key="GridCell.Tab.1.right" timestamp="1579574800164">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="193" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1579351476237" />
+    <state width="1236" height="214" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1579574800164" />
     <state x="171" y="16" key="Maven.ArtifactSearchDialog" timestamp="1579153896727">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="171" y="16" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1579153896727" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1579323646967">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1579520260472">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1579323646967" />
-    <state x="405" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579519111862">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1579520260472" />
+    <state x="405" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579571997225">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="405" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1579519111862" />
+    <state x="405" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1579571997225" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1579492512552">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

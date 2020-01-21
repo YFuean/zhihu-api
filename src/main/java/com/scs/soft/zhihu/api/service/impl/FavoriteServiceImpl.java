@@ -28,4 +28,10 @@ public class FavoriteServiceImpl implements FavoriteService {
     public List<Favorite> selectAll() {
         return favoriteMapper.selectAll();
     }
+
+    @Override
+    public List<Favorite> selectByPage(int currentCount, int count) {
+        int dealCount = (currentCount - 1) * count;
+        return favoriteMapper.selectByPage(dealCount,count);
+    }
 }
