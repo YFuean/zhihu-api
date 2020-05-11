@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197673bf-5de6-4dac-a9bb-fc9927bd49dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/ColumnsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/ColumnsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/ColumnsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/impl/ColumnsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/scs/soft/zhihu/api/mapper/ColumnsMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +41,7 @@
         <item name="zhihu@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="zhihu: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="t_columns: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="t_round_table: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -148,38 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteMapperTest.selectHot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zhihu-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scs.soft.zhihu.api.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.scs.soft.zhihu.api.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.scs.soft.zhihu.api.mapper.FavoriteMapperTest" />
-      <option name="METHOD_NAME" value="selectHot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FavoriteServiceTest.selectByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zhihu-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scs.soft.zhihu.api.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.scs.soft.zhihu.api.service" />
-      <option name="MAIN_CLASS_NAME" value="com.scs.soft.zhihu.api.service.FavoriteServiceTest" />
-      <option name="METHOD_NAME" value="selectByPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RoundTableMapperTest.selectHot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zhihu-api" />
       <extension name="coverage">
@@ -196,6 +159,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpecialMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zhihu-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scs.soft.zhihu.api.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scs.soft.zhihu.api.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.scs.soft.zhihu.api.mapper.SpecialMapperTest" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialMapperTest.selectRecent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zhihu-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scs.soft.zhihu.api.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.scs.soft.zhihu.api.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.scs.soft.zhihu.api.mapper.SpecialMapperTest" />
+      <option name="METHOD_NAME" value="selectRecent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZhihuApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zhihu-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.scs.soft.zhihu.api.ZhihuApiApplication" />
@@ -205,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoundTableMapperTest.selectHot" />
+        <item itemvalue="JUnit.SpecialMapperTest.selectAll" />
+        <item itemvalue="JUnit.SpecialMapperTest.selectRecent" />
         <item itemvalue="JUnit.ColumnsMapperTest.selectRandom" />
         <item itemvalue="JUnit.ColumnsMapperTest.selectHot" />
-        <item itemvalue="JUnit.FavoriteServiceTest.selectByPage" />
-        <item itemvalue="JUnit.RoundTableMapperTest.selectHot" />
-        <item itemvalue="JUnit.FavoriteMapperTest.selectHot" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +237,15 @@
       <workItem from="1579443666750" duration="1973000" />
       <workItem from="1579492127126" duration="10907000" />
       <workItem from="1579567996104" duration="6398000" />
-      <workItem from="1579660211160" duration="5896000" />
+      <workItem from="1579660211160" duration="6041000" />
+      <workItem from="1580271292648" duration="868000" />
+      <workItem from="1580527598586" duration="4068000" />
+      <workItem from="1580614540065" duration="1215000" />
+      <workItem from="1580638377888" duration="3354000" />
+      <workItem from="1580709188919" duration="1062000" />
+      <workItem from="1581056357465" duration="284000" />
+      <workItem from="1582099016724" duration="35000" />
+      <workItem from="1582100966808" duration="2193000" />
     </task>
     <task id="LOCAL-00001" summary="知乎api">
       <created>1579323576085</created>
@@ -265,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579586963226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加专栏板块">
+      <created>1579688194448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579688194448</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +284,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="知乎api" />
     <MESSAGE value="增加收藏夹板块" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加收藏夹板块" />
+    <MESSAGE value="增加专栏板块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加专栏板块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="20" key="#Intentions" timestamp="1579153163179">
@@ -290,61 +301,63 @@
     </state>
     <state x="446" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579665359786" />
     <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1579571648203" />
-    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1579586961349">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1579688191736">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579688191736" />
     <state x="145" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1579586961349" />
     <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1579323459050">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1579323459050" />
-    <state width="1236" height="183" key="GridCell.Tab.0.bottom" timestamp="1579687874014">
+    <state width="1236" height="161" key="GridCell.Tab.0.bottom" timestamp="1581056641978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579687874014" />
+    <state width="1236" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581056641978" />
     <state width="1236" height="178" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579588501046" />
-    <state width="1236" height="183" key="GridCell.Tab.0.center" timestamp="1579687874014">
+    <state width="1236" height="161" key="GridCell.Tab.0.center" timestamp="1581056641978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579687874014" />
+    <state width="1236" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581056641978" />
     <state width="1236" height="178" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1579588501045" />
-    <state width="1236" height="183" key="GridCell.Tab.0.left" timestamp="1579687874014">
+    <state width="1236" height="161" key="GridCell.Tab.0.left" timestamp="1581056641977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579687874014" />
+    <state width="1236" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581056641977" />
     <state width="1236" height="178" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1579588501045" />
-    <state width="1236" height="183" key="GridCell.Tab.0.right" timestamp="1579687874014">
+    <state width="1236" height="161" key="GridCell.Tab.0.right" timestamp="1581056641978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579687874014" />
+    <state width="1236" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581056641978" />
     <state width="1236" height="178" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1579588501045" />
-    <state width="1236" height="183" key="GridCell.Tab.1.bottom" timestamp="1579687874015">
+    <state width="1236" height="161" key="GridCell.Tab.1.bottom" timestamp="1581056641978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579687874015" />
+    <state width="1236" height="161" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581056641978" />
     <state width="1236" height="178" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579588501046" />
-    <state width="1236" height="183" key="GridCell.Tab.1.center" timestamp="1579687874015">
+    <state width="1236" height="161" key="GridCell.Tab.1.center" timestamp="1581056641978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579687874015" />
+    <state width="1236" height="161" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581056641978" />
     <state width="1236" height="178" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1579588501046" />
-    <state width="1236" height="183" key="GridCell.Tab.1.left" timestamp="1579687874014">
+    <state width="1236" height="161" key="GridCell.Tab.1.left" timestamp="1581056641978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579687874014" />
+    <state width="1236" height="161" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581056641978" />
     <state width="1236" height="178" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1579588501046" />
-    <state width="1236" height="183" key="GridCell.Tab.1.right" timestamp="1579687874015">
+    <state width="1236" height="161" key="GridCell.Tab.1.right" timestamp="1581056641978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579687874015" />
+    <state width="1236" height="161" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581056641978" />
     <state width="1236" height="178" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1579588501046" />
     <state x="171" y="16" key="Maven.ArtifactSearchDialog" timestamp="1579153896727">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="171" y="16" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1579153896727" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1579586967572">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="233" y="89" key="Vcs.Push.Dialog.v2" timestamp="1579688199232">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="233" y="89" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579688199232" />
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1579586967572" />
     <state x="405" y="75" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579661716832">
       <screen x="0" y="0" width="1280" height="680" />
